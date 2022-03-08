@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  border: none;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background: rgb(30, 130, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 130, 176, 1) 8%,
+    rgba(41, 149, 77, 1) 100%
+  );
+  font-size: 18px;
+  color: white;
+}
+
+.container {
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  gap: 20px;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .teclas {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 10px;
+}
+
+.container .teclas .tecla {
+  font-size: 25px;
+  font-weight: bold;
+  height: 80px;
+  width: 80px;
+}
+
+.container .composicao {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  place-items: center;
+  gap: 10px;
+}
+
+.container .composicao input,
+.container .composicao button {
+  width: 260px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.container .composicao input:focus::placeholder {
+  color: transparent;
+}
+
+button {
+  font-weight: bold;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #89e2fd;
+}
+
+#btnTocar {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+#btnTocar:hover {
+  background-color: white;
+  color: black;
+}
+
+.container .autoria {
+  text-align: center;
+}
+
+.selecionada {
+  background-color: #89e2fd;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Bateria</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Estrutura do projeto -->
+  <div class="container">
+    <h1>Mini Bateria</h1>  
+
+    <div class="teclas">
+      <button id="teclaQ" class="tecla">Q</button>
+      <button id="teclaW" class="tecla">W</button>
+      <button id="teclaE" class="tecla">E</button>
+
+      <button id="teclaA" class="tecla">A</button>
+      <button id="teclaS" class="tecla">S</button>
+      <button id="teclaD" class="tecla">D</button>
+
+      <button id="teclaZ" class="tecla">Z</button>
+      <button id="teclaX" class="tecla">X</button>
+      <button id="teclaC" class="tecla">C</button>
+    </div>
+
+    <div class="composicao">
+      <input id="sequencia" type="text" placeholder="Digite uma sequência">
+      <button id="btnTocar">Tocar</button>
+    </div>
+
+    <p class="autoria">Feito por Lucca Rauédys</p>
+  </div>
+
+  <!-- Carregando os áudios para usar nas teclas -->
+  <audio id="som_teclaQ" src="./sounds/teclaQ.wav"></audio>
+  <audio id="som_teclaW" src="./sounds/teclaW.wav"></audio>
+  <audio id="som_teclaE" src="./sounds/teclaE.wav"></audio>
+  <audio id="som_teclaA" src="./sounds/teclaA.wav"></audio>
+  <audio id="som_teclaS" src="./sounds/teclaS.wav"></audio>
+  <audio id="som_teclaD" src="./sounds/teclaD.wav"></audio>
+  <audio id="som_teclaZ" src="./sounds/teclaZ.wav"></audio>
+  <audio id="som_teclaX" src="./sounds/teclaX.wav"></audio>
+  <audio id="som_teclaC" src="./sounds/teclaC.wav"></audio>
+
+  <!-- Linkando o script -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
