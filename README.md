@@ -5,3 +5,5 @@ Projeto feito como forma de praticar os conhecimentos adquiridos ao longo do cur
 eventos de mouse e eventos de teclado.
 
 Tecnologias utilizadas: HTML, CSS e Javascript.
+
+https://luccarauedys.github.io/projetoMiniBateria/
